@@ -1,0 +1,14 @@
+#btn-close{
+    background: rgba(97, 193, 107, 0.6);
+    color: white;
+    border: 1px solid rgba(4, 216, 25, 0.6);
+    padding: 10px 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: transform 0.2s, background 0.3s;
+}
+#btn-close:hover{
+    background: rgba(4, 216, 25, 0.6);
+    transform: scale(1.05);
+}
